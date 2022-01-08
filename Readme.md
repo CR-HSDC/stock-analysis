@@ -3,7 +3,7 @@
   
 
 ## **Overview of Project**
-This project refactors the module 2 code, to loop through all data and collect the same information. Efforts were made to imrove the efficiency of the refactored code, details of which are explained in the "Results" section below. 
+This project refactors the module 2 code, to loop through all data and collect the same information. Efforts were made to improve the efficiency of the refactored code, details of which are explained in the "Results" section below. 
 
 ### **Purpose**
 The purpose of this project is to refactor the VBA code provided ("VBA_challenege.vbs") and to improve its executional efficiency.
