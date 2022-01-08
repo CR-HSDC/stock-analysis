@@ -63,7 +63,7 @@ The purpose of this project is to refactor the VBA code provided ("VBA_challeneg
 
 **h.** The Optimized Refactored code was the most efficient for both 2017 (*Figure 1*) and 2018 (*Figure 4*)
 
-**g.** Code was optimized by elimination of a for loop in section *5a* of the *Run_OriginalCode* function. The SUM function was used within VBA to total 		the values between a starting and end row, eliminating the iterative computer cycles required by the FOR loop. This reduced computation time. The 		   code optimization can be seen from the red box highlights and comments in *Figure 7*
+**g.** Code was optimized by elimination of a for loop in section *5a* of the *Run_OriginalCode* function. The SUM function was used within VBA to total the values between a starting and end row, eliminating the iterative computer cycles required by the FOR loop. This reduced computation time. The 		   code optimization can be seen from the red box highlights and comments in *Figure 7*
 
 
 
@@ -73,6 +73,6 @@ The purpose of this project is to refactor the VBA code provided ("VBA_challeneg
 
 	**a.** Advantages of refactoring code include time saving in writing and debugging original code.
 	
-	**b.** Disadvantages of refactoring code may include inefficiency of original code, particularly as it pertains to a specific use case, there may be 		redundant code that served a specific purpose in the original use case but is unncessary for the refactored use case.
+	**b.** Disadvantages of refactoring code may include inefficiency of original code, particularly as it pertains to a specific use case, there may be redundant code that served a specific purpose in the original use case but is unncessary for the refactored use case.
 
-	**c.** As the advnatges and disdvantages above, pertain to this particular use case, time was saved in developing the code for this application 		   (advantage). The code was had inefficiencies that needed to be optimized. As data sets grow, the computation time spent on these inefficiencies will also grow.  
+	**c.** As the advantages and disdvantages detailed above, pertain to this particular use case, time was saved in developing the code for this application (advantage). The code had inefficiencies that needed to be optimized. As data sets grow, the computation time spent on these inefficiencies will also grow.  
