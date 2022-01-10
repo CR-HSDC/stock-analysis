@@ -32,7 +32,7 @@ The purpose of this project is to refactor the VBA code provided ("VBA_challeneg
 
 **_Figure 4_:** 2018 Optimized Refactored Code
 
-![Figure 5](https://github.com/CR-HSDC/stock-analysis/blob/main/resources/VBA_Refactored_2018.png)
+![Figure 5](https://github.com/CR-HSDC/stock-analysis/blob/main/resources/VBA_Challenge_2018.png)
 
 **_Figure 5_:** 2018 Unoptimized Refactored Code
 
