@@ -47,13 +47,13 @@ The purpose of this project is to refactor the VBA code provided ("VBA_challeneg
   
 
 ### **Results**
-**a.** Optmiized Refactored Code for 2017 data took 0.539 Seconds to execute (*Figure 1*)
+**a.** Optmiized Refactored Code for 2017 data took 0.320 Seconds to execute (*Figure 1*)
 
 **b.** Original Code for 2017 data took 0.586 Seconds to execute (*Figure 2*)
 
 **c.** Refactored Original Code for 2017 data took 0.621 Seconds to execute (*Figure 3*)
 
-**d.** Optmiized Refactored Code for 2018 data took 0.543 Seconds to execute (*Figure 4*)
+**d.** Optmized Refactored Code for 2018 data took 0.320 Seconds to execute (*Figure 4*)
 
 **e.** Original Code for 2018 data took 0.586 Seconds to execute (*Figure 5*)
 
@@ -63,7 +63,7 @@ The purpose of this project is to refactor the VBA code provided ("VBA_challeneg
 
 **h.** The Optimized Refactored code was the most efficient for both 2017 (*Figure 1*) and 2018 (*Figure 4*)
 
-**g.** Code was optimized by elimination of a for loop in section *5a* of the *Run_OriginalCode* function. The SUM function was used within VBA to total the values between a starting and end row, eliminating the iterative computer cycles required by the FOR loop. This reduced computation time. The 		   code optimization can be seen from the red box highlights and comments in *Figure 7*
+**g.** Code was optimized by elimination of a for loop in section *5a* of the *Run_OriginalCode* function. The SUM function was used within VBA to total the values between a starting and end row, eliminating the iterative computer cycles required by the FOR loop. This reduced computation time. The code optimization can be seen from the red box highlights and comments in *Figure 7*. Additionally, a "currentRow" variable was created and used within the j FOR loop, to begin cycling at the next row. This eliminates the need to reassess previous rows, and considers that the row after the final row of the current ticker, is the first row of the next ticker, this assumption can be used for sorted datasets.
 
 
 
